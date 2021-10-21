@@ -1,0 +1,37 @@
+Angular compatibility matrix
+https://gist.github.com/LayZeeDK/c822cc812f75bb07b7c55d07ba2719b3
+
+Node JS
+- node-v14.18.1-x64
+
+Installazione Angular
+- npm install -g @angular/cli
+- npm install --save-dev @angular-devkit/build-angular (se errore con mismatch tra angular e node)
+
+Estensioni VS Code:
+- ms-dotnettools.csharp
+- kreativ-software.csharpextensions
+- pkief.material-icon-theme
+- angular.ng-template
+- johnpapa.angular2
+- coenraads.bracket-pair-colorizer-2
+- vscode-sqlite
+- patcx.vscode-nuget-gallery
+
+nuget:
+- Microsoft.AspNetCore.Authentication.JwtBearer
+
+Installazione Angular
+- npm install -g @angular/cli
+
+Comandi terminal
+- dotnet watch run: compile, run e recompile on the fly
+- ng --version ---> stato dell'installazione angular
+- dotnet ef database drop ---> butta tutto
+- dotnet ef database update ---> update da migration
+
+Appunti vari:
+- [Required] ---> decoratore di un campo DTO, rende il campo obbligatorio
+- ctrl + p   ---> cerca e apre un file nel workspace
+
+ciaone proprio!!
