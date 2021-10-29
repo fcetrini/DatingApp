@@ -29,9 +29,10 @@ Comandi terminal
 - ng --version ---> stato dell'installazione angular
 - dotnet ef database drop ---> butta tutto
 - dotnet ef database update ---> update da migration
+- W:\Repository\DatingApp\client\src\app> ng g c nav --skip-tests : crea un nuovo componente angular chiamato "nav" evitando di creare i file di test
+- W:\Repository\DatingApp\client\src\app\_services> ng g s account --skip-tests : genera un nuovo servizio angular chiamato "account" evitando di creare i file di test
 
 Appunti vari:
 - [Required] ---> decoratore di un campo DTO, rende il campo obbligatorio
 - ctrl + p   ---> cerca e apre un file nel workspace
 
-ciaone proprio!!
